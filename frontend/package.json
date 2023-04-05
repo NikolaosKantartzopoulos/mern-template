@@ -1,7 +1,7 @@
 {
-  "name": "mern-template",
+  "name": "mern-custom-frontend-template",
   "version": "1.0.0",
-  "description": "MERN custom template",
+  "description": "MERN custom frontend template",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development",
