@@ -1,13 +1,20 @@
-const express = require('express');
-const app = express();
-const port = 4000;
+const express = require("express");
+const bodyParser = require("body-parser");
 
-app.get('/api', (req, res) => {
-  res.send('api');
+const app = express();
+const port = 5000;
+
+app.get("/api/asdf", (req, res) => {
+  console.log("data sent");
+  res.status(200).json({ name: "John Doe" }).send();
 });
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get("/api", (req, res) => {
+  res.send("api");
+});
+
+app.get("/", (req, res) => {
+  res.send("Hello World!");
 });
 
 app.listen(port, () => {
