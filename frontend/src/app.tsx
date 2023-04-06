@@ -1,11 +1,10 @@
-import About from './pages/about';
-import './styles/main.scss';
+import Home from "./pages/home";
+import "./styles/main.scss";
 
 const App = () => {
   return (
     <div className="App">
-      Hello world from App.tsx!
-      <About />
+      <Home />
     </div>
   );
 };
