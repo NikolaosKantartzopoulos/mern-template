@@ -3,6 +3,7 @@ import React, { useState } from "react";
 function Home() {
   const [data, setData] = useState(null);
   const [databaseFiles, setDatabaseFiles] = useState(null);
+  const [asyncTestingActive, setAsyncTestingActive] = useState(false);
 
   function buttonHandler() {
     console.log("here");
@@ -20,6 +21,10 @@ function Home() {
       .then((data) => setDatabaseFiles(data.a));
   }
 
+  function checkAsyncTesting() {
+    setAsyncTestingActive((prev) => !prev);
+  }
+
   return (
     <div>
       <h1>Sass works if these letters are red!</h1>
@@ -32,6 +37,11 @@ function Home() {
         <p>Check Database Connection</p>
         <button onClick={checkDatabaseFn}>Check database!</button>
         <p>{!databaseFiles ? "..." : databaseFiles}</p>
+      </div>
+      <div className="checkConnectionBox">
+        <p>Check Async Testing</p>
+        <button onClick={checkAsyncTesting}>Check Test!</button>
+        <p>{!asyncTestingActive ? "..." : "Async testing active"}</p>
       </div>
     </div>
   );
