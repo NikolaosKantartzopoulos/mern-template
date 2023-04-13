@@ -27,7 +27,7 @@ app.use("/api/admin", adminRoutes);
 app.use("/api/database", databaseRoutes);
 
 app.get("/", (req, res) => {
-  res.json({ name: "John Doe" });
+  res.json({ name: "Server works!!!" });
 });
 
 client

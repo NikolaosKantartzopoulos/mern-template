@@ -1,0 +1,6 @@
+.checkConnectionBox {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}

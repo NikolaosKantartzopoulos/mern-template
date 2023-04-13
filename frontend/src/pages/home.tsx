@@ -23,15 +23,15 @@ function Home() {
   return (
     <div>
       <h1>Sass works if these letters are red!</h1>
-      <div>
-        Connected to server if button is pressed and "John Doe" appears!
-        <button onClick={buttonHandler}>Get</button>
-        <p>{data ? data : "No data"}</p>
+      <div className="checkConnectionBox">
+        Check Server Connection
+        <button onClick={buttonHandler}>Check server!</button>
+        <p>{data ? data : "..."}</p>
       </div>
-      <div>
-        <p>Database ckeck</p>
+      <div className="checkConnectionBox">
+        <p>Check Database Connection</p>
         <button onClick={checkDatabaseFn}>Check database!</button>
-        <p>{!databaseFiles ? "Database Files missing..." : databaseFiles}</p>
+        <p>{!databaseFiles ? "..." : databaseFiles}</p>
       </div>
     </div>
   );
