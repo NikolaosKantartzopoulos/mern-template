@@ -37,6 +37,11 @@ jspm_packages
 .node_repl_history
 .DS_Store
 
+# Enviroment variables
+.env
+.env.local
+
+
 #Excluding build directory
 public/
 dist/

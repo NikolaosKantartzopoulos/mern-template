@@ -28,6 +28,7 @@
     "@typescript-eslint/parser": "^5.57.1",
     "babel-jest": "^29.5.0",
     "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",

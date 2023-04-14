@@ -41,7 +41,12 @@ function Home() {
       <div className="checkConnectionBox">
         <p>Check Async Testing</p>
         <button onClick={checkAsyncTesting}>Check Test!</button>
-        <p>{!asyncTestingActive ? "..." : "Async testing active"}</p>
+        <p>{!asyncTestingActive ? "..." : "Async testing works!!!"}</p>
+      </div>
+      <div className="checkConnectionBox">
+        <p>Environment variables</p>
+        <p style={{ textAlign: "center" }}> --- </p>
+        <p>{process.env.testEnv}</p>
       </div>
     </div>
   );
