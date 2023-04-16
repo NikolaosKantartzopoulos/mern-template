@@ -6,7 +6,6 @@ function Home() {
   const [asyncTestingActive, setAsyncTestingActive] = useState(false);
 
   function buttonHandler() {
-    console.log("here");
     fetch("http://localhost:5000/")
       .then((res) => res.json())
       .then((data) => {
@@ -15,7 +14,6 @@ function Home() {
   }
 
   function checkDatabaseFn() {
-    console.log("Checking database...");
     fetch("http://localhost:5000/api/database/check-database-data")
       .then((res) => res.json())
       .then((data) => setDatabaseFiles(data.a));
