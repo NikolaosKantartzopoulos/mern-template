@@ -16,5 +16,5 @@ test("Home page initial render", async () => {
   });
   await user.click(asyncTestingButton);
 
-  expect(screen.getByText(/Async testing active/i)).toBeInTheDocument();
+  expect(screen.getByText(/Async testing works!!!/i)).toBeInTheDocument();
 });

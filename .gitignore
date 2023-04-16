@@ -43,5 +43,5 @@ jspm_packages
 
 
 #Excluding build directory
-public/
+#public/
 dist/
