@@ -18,23 +18,15 @@ using [body-parser](https://www.npmjs.com/package/body-parser), [nodemon](https:
 
 #### Frontend - <i>[React](https://react.dev/) + [Typescript](https://www.typescriptlang.org/)</i>
 
-| Use | Tool |
-
-| :----------------: | :--------------------------------------------------------------------------------: |
-
-| CSS Pre-processor | [Sass](https://sass-lang.com/) |
-
-| CSS Post-processor | [postcss-loader](https://www.npmjs.com/package/postcss-loader) |
-
-| Bundler | [Webpack](https://webpack.js.org/) |
-
-| Transpiler | [Babel](https://babeljs.io/) |
-
-| Linter | [ESLint](https://eslint.org/) |
-
-| Testing | [JEST](https://jestjs.io/) + [React Testing Library](https://testing-library.com/) |
-
-| Env. Variables | [dotenv-webpack](https://www.npmjs.com/package/dotenv-webpack) |
+| Use                | Tool                                                                               |
+| :----------------- | :--------------------------------------------------------------------------------- |
+| CSS Pre-processor  | [Sass](https://sass-lang.com/)                                                     |
+| CSS Post-processor | [postcss-loader](https://www.npmjs.com/package/postcss-loader)                     |
+| Bundler            | [Webpack](https://webpack.js.org/)                                                 |
+| Transpiler         | [Babel](https://babeljs.io/)                                                       |
+| Linter             | [ESLint](https://eslint.org/)                                                      |
+| Testing            | [JEST](https://jestjs.io/) + [React Testing Library](https://testing-library.com/) |
+| Env. Variables     | [dotenv-webpack](https://www.npmjs.com/package/dotenv-webpack)                     |
 
 ---
 
