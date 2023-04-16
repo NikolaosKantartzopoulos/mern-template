@@ -1,4 +1,4 @@
-### Sample MERN stack template
+### MERN stack template
 
 ---
 
@@ -38,7 +38,7 @@ using [body-parser](https://www.npmjs.com/package/body-parser), [nodemon](https:
 git clone https://github.com/NikolaosKantartzopoulos/mern-template.git
 ```
 
-2. Create .env file useing .env.example files as a base
+2. Create .env file using .env.example files as a base
 
 3. Setup Backend - cd backend/
 
