@@ -1,7 +1,7 @@
 {
-  "name": "mern-custom-frontend-template",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "MERN custom frontend template",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -10,8 +10,13 @@
     "lint:fix": "eslint . --fix",
     "test": "jest"
   },
-  "author": "Nikos",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
@@ -40,7 +45,6 @@
     "postcss-loader": "^7.2.4",
     "postcss-preset-env": "^8.3.0",
     "prettier": "^2.8.7",
-    "react-test-renderer": "^18.2.0",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",
     "style-loader": "^3.3.2",
@@ -49,9 +53,5 @@
     "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.2"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   }
 }

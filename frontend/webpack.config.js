@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
 
 module.exports = {
-  mode: "development",
   entry: "./src/index.tsx",
   output: {
     filename: "main.js",
@@ -13,11 +12,6 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: ["babel-loader"],
-      },
       {
         test: /\.(ts|tsx)$/,
         use: "ts-loader",

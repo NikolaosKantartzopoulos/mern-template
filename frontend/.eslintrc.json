@@ -26,7 +26,8 @@
     }
   },
   "rules": {
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "max-len": ["warn", { "code": 80 }]
   }
 }
