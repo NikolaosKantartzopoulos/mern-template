@@ -10,7 +10,7 @@ using [body-parser](https://www.npmjs.com/package/body-parser), [nodemon](https:
 
 ---
 
-#### Frontend - <i>[React](https://react.dev/) + [Typescript](https://www.typescriptlang.org/)</i>
+## Frontend - <i>[React](https://react.dev/) + [Typescript](https://www.typescriptlang.org/)</i>
 
 | Use                | Tool                                                                               |
 | :----------------- | :--------------------------------------------------------------------------------- |
