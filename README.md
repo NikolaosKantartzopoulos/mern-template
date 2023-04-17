@@ -32,33 +32,47 @@ using [body-parser](https://www.npmjs.com/package/body-parser), [nodemon](https:
 git clone https://github.com/NikolaosKantartzopoulos/mern-template.git
 ```
 
-## 2. Create .env file using .env.example files
+---
 
-## 3. Setup Backend - cd backend/
+## 2. Create .env file
 
-```json
-"scripts": {
-	"start": "nodemon app.js",
-}
-```
+### 2.1 Use .env.example files as a reference
 
-## 4. Setup Database - cd to ./backend/utils/databaseUI.js
+### 2.2 Be sure to update FRONTEND_SERVER_URL at backend/.env file for CORS headers
 
-Comment in/out preferable options for
+---
+
+## 3. Setup Database
+
+### 3.1 cd to ./backend/utils/databaseUI.js
+
+### 3.2 Comment in/out preferable options
 
 - MongoDB Community Server **OR**
 - Atlas Cloud Server
 
-## 5. Setup Frontend - cd frontend/
+---
 
-```json
-"scripts": {
-	"build": "webpack --mode=production --config webpack.config.js",
-	"dev": "webpack-dev-server --mode development",
-	"lint": "eslint ./src",
-	"lint:fix": "eslint . --fix",
-	"test": "jest"
-},
+## 4. Install packages
+
+```bash
+cd backend && npm i && cd ../frontend && npm i && cd ../
+```
+
+---
+
+## 5. Use stack
+
+### 5.1 cd in frontend/
+
+```bash
+npm run dev
+```
+
+### 5.2 cd in backend/
+
+```bash
+npm run start
 ```
 
 ---
