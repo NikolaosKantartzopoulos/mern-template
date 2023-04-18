@@ -1,12 +1,9 @@
 const express = require("express");
+const { connectClient } = require("./utils/databaseUI");
 
 const bodyParser = require("body-parser");
 const adminRoutes = require("./routes/admin-routes");
 const databaseRoutes = require("./routes/database-routes");
-
-const { MongoClient } = require("mongodb");
-
-let client = new MongoClient("mongodb://localhost:27017");
 
 const app = express();
 
@@ -30,8 +27,7 @@ app.get("/", (req, res) => {
   res.json({ name: "Server works!!!" });
 });
 
-client
-  .connect()
+connectClient()
   .then(
     app.listen(5000, () => {
       console.log("Database connected...");
