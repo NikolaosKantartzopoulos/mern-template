@@ -789,4 +789,4 @@ test("Home page initial render", async () => {
 });' > home.test.js && cd ../
 ```
 
-## 5 Any comments are greatly appreciated!
+## 5 Any comments will be greatly appreciated!
